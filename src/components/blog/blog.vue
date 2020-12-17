@@ -1,8 +1,5 @@
-<template >
+<template>
   <div>
-   <section id="facts" class="wow fadeIn">
-        <div class="container">
-      <div>
     <div class="container">
       <div class="container">
         <h5 class="section-title h1 mb-5">OUR BLOG</h5>
@@ -17,15 +14,13 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="row">
-
-
                     <div class="col-md-4">
                       <div class="item-box-blog">
                         <div class="item-box-blog-image">
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-03.jpg" /></figure>
+                          <figure><img alt="" src="" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -53,7 +48,7 @@
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-04.jpg" /></figure>
+                          <figure><img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -81,7 +76,7 @@
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-06.jpg" /></figure>
+                          <figure><img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -115,7 +110,7 @@
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-03.jpg" /></figure>
+                          <figure><img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -143,7 +138,7 @@
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-04.jpg" /></figure>
+                          <figure><img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -171,7 +166,7 @@
                           <!--Date-->
                           <div class="item-box-blog-date bg-blue-ui white"><span class="mon">Augu 01</span></div>
                           <!--Image-->
-                          <figure><img alt="" src="../../assets/images/post-06.jpg" /></figure>
+                          <figure><img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg" /></figure>
                         </div>
                         <div class="item-box-blog-body">
                           <!--Heading-->
@@ -206,68 +201,11 @@
       </div>
     </div>
   </div>
-
- 
-        </div>
-      </section>
-    
-  </div>
 </template>
 <script>
-export default {
-  data() {
-    return {
-      
-    }
-  },
-}
+export default {};
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
-  
-#facts {
-    background: url("../../assets/images/facts-bg.jpg") center top no-repeat fixed;
-    background-size: cover;
-    padding: 60px 0 0 0;
-    position: relative;
-}
-
-#facts::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.88);
-    z-index: 9;
-}
-
-#facts .container {
-    position: relative;
-    z-index: 10;
-}
-
-#facts .counters span {
-    font-family: "Dosis", s;
-    font-weight: bold;
-    font-size: 48px;
-    display: block;
-    color: rgb(23, 165, 233);
-}
-
-#facts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #111;
-}
-
-#facts .facts-img {
-    text-align: center;
-    padding-top: 30px;
-}
 .cta-100 {
   margin-top: 100px;
   padding-left: 8%;
@@ -286,7 +224,7 @@ export default {
   padding-top: 20px;
 }
 .bg-blue-ui {
-  background-color: rgb(23, 165, 233) !important;
+  background-color: #708198 !important;
 }
 figure img {
   width: 300px;
@@ -305,14 +243,14 @@ figure img {
 /* The colour of the indicators */
 
 .blog .carousel-indicators li {
-  background: rgb(23, 165, 233);
+  background: #708198;
   border-radius: 50%;
   width: 8px;
   height: 8px;
 }
 
 .blog .carousel-indicators .active {
-  background: rgb(23, 165, 233);
+  background: #0fc9af;
 }
 
 .item-carousel-blog-block {
@@ -342,7 +280,7 @@ figure img {
   padding: 4px 20px;
   top: -20px;
   right: 8px;
-  background-color: rgb(23, 165, 233);
+  background-color: #41cb52;
 }
 
 .item-box-blog-date span {
@@ -402,6 +340,6 @@ figure img {
 }
 
 .btn.bg-blue-ui.white.read:hover {
-  box-shadow: 0px 5px 15px inset rgb(23, 165, 233);
+  box-shadow: 0px 5px 15px inset #4d5f77;
 }
 </style>
